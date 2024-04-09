@@ -1,0 +1,73 @@
+h3 {
+    text-align: center;
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    border: 1px solid black;
+    background-color: black;
+    max-width: 800px;
+    margin: 50px auto 0px auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.inner-container {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+
+
+label, input, select, button {
+    margin: 5px 10px;
+    padding: 0 10px;
+    display: block;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+select, input {
+    color: black;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.chart-container {
+    background-color: black;
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
